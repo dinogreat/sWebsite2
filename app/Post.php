@@ -15,6 +15,8 @@ class Post extends Model
 
     public $tiemStatmp = "tue";
 
+    public $newparam = "newparama";
+
     public function user(){
         return $this->belongsTo('App\User');
     }
