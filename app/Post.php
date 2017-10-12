@@ -21,6 +21,8 @@ class Post extends Model
 
     public $tanat = "tanat";
 
+    public $tanat2 ="tanat2";
+
     public function user(){
         return $this->belongsTo('App\User');
     }
