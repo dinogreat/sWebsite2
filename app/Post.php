@@ -19,6 +19,8 @@ class Post extends Model
 
     public $psaasl ="sdfsdf";
 
+    public $tanat = "tanat";
+
     public function user(){
         return $this->belongsTo('App\User');
     }
