@@ -17,6 +17,8 @@ class Post extends Model
 
     public $newparam = "newparama";
 
+    public $psaasl ="sdfsdf";
+
     public function user(){
         return $this->belongsTo('App\User');
     }
